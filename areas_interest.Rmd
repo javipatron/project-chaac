@@ -18,6 +18,12 @@ output:
 
 Load the Libraries
 ```{r}
+library(rgdal)
+library(raster)
+```
 
+
+```{r}
+area_cienegas <- readOGR("CMCNY.rar")
 ```
 
